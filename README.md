@@ -62,8 +62,8 @@ A webpage for a vegan cafe chain - "Green Kitchen Cafe". The main aim of this we
 
 # Technologies Used
 * HTML5, CSS3 and Javascript were the programming languages used for this project.
-* 
-* 
+* Unsplash.com - hero image
+* Tiny PNG
 * 
 
 # Testing

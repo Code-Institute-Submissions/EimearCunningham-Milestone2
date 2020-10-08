@@ -1,0 +1,13 @@
+/*------------------------------------------Fonts*/
+
+body {
+    font-family: 'Chilanka', cursive;
+}
+
+/*------------------------------------------NavBar*/
+.nav-item {
+    font-size:20px;
+    padding:5px 20px;
+    font-weight:900;
+}
+
