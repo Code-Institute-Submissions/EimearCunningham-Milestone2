@@ -11,6 +11,7 @@ body {
     font-weight:900;
 }
 
+/*------------------------------------------Header image and logo*/
 
 #background {
     width:100%;
@@ -18,15 +19,36 @@ body {
     opacity: 0.3;
     position:absolute;
     z-index: 1;
-    
 }
 
 #logo {
     position:relative;
     z-index: 2;
     width:20%;
-    top:150px;
-    left:600px;
-    
+    }
 
+
+@media only screen and (min-width: 100px) {
+        #logo {
+        width:90%;
+        height:500px;
+        top:50px;
+        left:20px;
+        bottom:20px;
+        right:20px;
+          
 }
+}
+
+@media only screen and (min-width: 992px) {
+       #logo {
+        width:30vw;
+        height:500px;
+        margin-left:auto;
+        margin-right:auto;
+        display:block;
+        
+       }
+       }
+    
+    
