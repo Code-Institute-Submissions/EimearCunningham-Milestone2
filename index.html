@@ -102,10 +102,12 @@
     </section>
 
     <!--Menus Section-->
-	<section id="menus"></section>
+	
 
     <!--Locations Section-->
-	<section id="locations"></section>
+	<section id="locations">
+        <div id="map"></div>
+    </section>
 
     <!--Contact Form Section-->
 	<section id="book-table"></section>
@@ -123,8 +125,22 @@
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
 		integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
 	</script>
-    <!--AOS Script-->
+    
     <script src="assets/js/about-us.js"></script>
+    <script src="assets/js/maps.js"></script>
+
+    <!--Scripts for Google Maps API-->
+    
+        
+    
+
+    <script src="https://unpkg.com/@google/markerclustererplus@5.1.0/dist/markerclustererplus.min.js">
+    </script>
+
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCIDwqcfYrqmFmO_FmuEJiFwIJZC9oXvkw&callback=initMap">
+    </script>
+
 </body>
 
 </html>

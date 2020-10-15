@@ -73,3 +73,8 @@ h2 {
     padding-top:50px;
 }
 
+/*------------------------------------------Menu Section*/
+#map {
+    height:600px;
+    width:600px;
+}
