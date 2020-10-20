@@ -76,6 +76,12 @@ h2 {
 /*------------------------------------------Locations Section*/
 #map {
     height:600px;
-    width:600px;
+    width:60%;
     margin:auto;
+}
+
+/*------------------------------------------Locations Section*/
+form {
+    margin:auto;
+    width:80%;
 }

@@ -16,10 +16,10 @@
 	<script type="text/javascript">
 		(function(){
           emailjs.init("user_R15OC22cDobzkSy9K9v3a");
-          emailjs.send("Gmail", "cafe", {
-              name:"Aaron",
-              notes:"The project"
-          })
+          //emailjs.send("Gmail", "cafe", {
+              //name:"Aaron",
+              //notes:"The project"
+          //})
 	   })();
 	</script>
 	<title>Wholesome Kitchen</title>
@@ -125,6 +125,47 @@
     <!--Contact Form Section-->
 	<section id="book-table">
     <h2>Book a Table</h2>
+	<form>
+
+		<div class="form-group">
+			<label for="fullName">Full Name</label>
+			<input type="text" class="form-control" id="fullName" placeholder="Enter name">
+		</div>
+
+		<div class="form-group">
+			<label for="emailAddress">Email Address</label>
+			<input type="email" class="form-control" id="emailAddress" placeholder="Enter email">
+	    </div>
+
+        <div class="form-group">
+			<label for="contactNumber">Contact Number</label>
+			<input type="number" class="form-control" id="contactNumber" placeholder="Enter contact number">
+	    </div>
+
+        <div class="form-group">
+			<label for="location">Select Location</label>
+            <select class="form-control">
+                <option selected disabled>Please Select</option>
+                <option>Westminster</option>
+                <option>St. Pauls</option>
+                <option>Elephant & Castle</option>
+                <option>Brixton</option>
+            </select>
+	    </div>
+
+        <div class="form-group">
+			<label for="date">Date</label>
+			<input type="date" class="form-control" id="date" placeholder="Select Date">
+	    </div>
+
+        <div class="form-group">
+			<label for="time">Time</label>
+			<input type="time" class="form-control" id="time" placeholder="Select Time">
+	    </div>
+
+		<button type="submit" class="btn btn-primary">Request Table</button>
+
+	</form>
     </section>
 
     <!--Page Footer-->
