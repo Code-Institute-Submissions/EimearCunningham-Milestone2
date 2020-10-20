@@ -6,11 +6,22 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
 		integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 	<link rel="stylesheet" href="assets/css/style.css">
 	<style>
 		@import url('https://fonts.googleapis.com/css2?family=Chilanka&display=swap');
 	</style>
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js">
+	</script>
+	<script type="text/javascript">
+		(function(){
+          emailjs.init("user_R15OC22cDobzkSy9K9v3a");
+          emailjs.send("Gmail", "cafe", {
+              name:"Aaron",
+              notes:"The project"
+          })
+	   })();
+	</script>
 	<title>Wholesome Kitchen</title>
 </head>
 
@@ -105,12 +116,16 @@
 	
 
     <!--Locations Section-->
+    
 	<section id="locations">
+    <h2>Locations</h2>
         <div id="map"></div>
     </section>
 
     <!--Contact Form Section-->
-	<section id="book-table"></section>
+	<section id="book-table">
+    <h2>Book a Table</h2>
+    </section>
 
     <!--Page Footer-->
 	<footer></footer>
