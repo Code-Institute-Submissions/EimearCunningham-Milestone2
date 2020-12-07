@@ -66,6 +66,8 @@ A webpage for a vegan cafe chain - "Green Kitchen Cafe". The main aim of this we
 * Tiny PNG
 * Google Maps API
 * EmailJS
+* Font Awesome 
+* Hover.css 
 
 # Testing
 

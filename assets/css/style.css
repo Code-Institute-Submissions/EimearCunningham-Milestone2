@@ -1,3 +1,10 @@
+/*COLORS
+#4A8646 = Dark green headings 
+#F0FAEF = Light green background
+#F5F5F5 = Off white background
+*/
+
+
 /*------------------------------------------Fonts*/
 
 body {
@@ -80,8 +87,24 @@ h2 {
     margin:auto;
 }
 
-/*------------------------------------------Locations Section*/
+/*------------------------------------------Book Table Section*/
 form {
     margin:auto;
     width:80%;
+    padding:20px;
+}
+
+/*------------------------------------------Footer*/
+footer {
+    background: #4A8646;
+    color: #F5F5F5;
+    padding-top:20px;
+}
+
+a {
+  color:inherit;
+}
+
+#social-media {
+    font-size:30px;
 }
