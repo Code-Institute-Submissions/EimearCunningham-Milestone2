@@ -31,4 +31,5 @@ var markers = locations.map(function(location,i){
 
 var markerCluster = new MarkerClusterer(map, markers,
             {imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'});
+
 }

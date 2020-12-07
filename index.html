@@ -18,10 +18,7 @@
 	<script type="text/javascript">
 		(function(){
           emailjs.init("user_R15OC22cDobzkSy9K9v3a");
-          //emailjs.send("Gmail", "cafe", {
-              //name:"Aaron",
-              //notes:"The project"
-          //})
+          
 	   })();
 	</script>
 	<title>Wholesome Kitchen</title>
@@ -118,8 +115,7 @@
 	
 
     <!--Locations Section-->
-    
-	<section id="locations">
+    <section id="locations">
     <h2>Locations</h2>
         <div id="map"></div>
     </section>
@@ -127,26 +123,26 @@
     <!--Contact Form Section-->
 	<section id="book-table">
     <h2>Book a Table</h2>
-	<form>
+	<form onsubmit="return sendMail(this);">
 
 		<div class="form-group">
 			<label for="fullName">Full Name</label>
-			<input type="text" class="form-control" id="fullName" placeholder="Enter name">
+			<input type="text" class="form-control" name="name" id="fullName" placeholder="Enter name">
 		</div>
 
 		<div class="form-group">
 			<label for="emailAddress">Email Address</label>
-			<input type="email" class="form-control" id="emailAddress" placeholder="Enter email">
+			<input type="email" class="form-control" name="emailaddress" id="emailAddress" placeholder="Enter email">
 	    </div>
 
         <div class="form-group">
 			<label for="contactNumber">Contact Number</label>
-			<input type="number" class="form-control" id="contactNumber" placeholder="Enter contact number">
+			<input type="number" class="form-control" name="contactnumber" id="contactNumber" placeholder="Enter contact number">
 	    </div>
 
         <div class="form-group">
 			<label for="location">Select Location</label>
-            <select class="form-control">
+            <select class="form-control" name="location">
                 <option selected disabled>Please Select</option>
                 <option>Westminster</option>
                 <option>St. Pauls</option>
@@ -157,12 +153,12 @@
 
         <div class="form-group">
 			<label for="date">Date</label>
-			<input type="date" class="form-control" id="date" placeholder="Select Date">
+			<input type="date" class="form-control" name="date" id="date" placeholder="Select Date">
 	    </div>
 
         <div class="form-group">
 			<label for="time">Time</label>
-			<input type="time" class="form-control" id="time" placeholder="Select Time">
+			<input type="time" class="form-control" name="time" id="time" placeholder="Select Time">
 	    </div>
 
 		<button type="submit" class="btn btn-primary">Request Table</button>
@@ -215,14 +211,14 @@
     
     <script src="assets/js/about-us.js"></script>
     <script src="assets/js/maps.js"></script>
+    <script src="assets/js/sendEmail.js"></script>
 
     <!--Scripts for Google Maps API-->
     
     <script src="https://unpkg.com/@google/markerclustererplus@5.1.0/dist/markerclustererplus.min.js">
     </script>
-
-    <script async defer
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCIDwqcfYrqmFmO_FmuEJiFwIJZC9oXvkw&callback=initMap">
+    <script 
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCIDwqcfYrqmFmO_FmuEJiFwIJZC9oXvkw&callback=initMap" defer>
     </script>
 
 </body>
