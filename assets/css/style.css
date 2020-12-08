@@ -2,6 +2,7 @@
 #4A8646 = Dark green headings 
 #F0FAEF = Light green background
 #F5F5F5 = Off white background
+#9BE89B = Medium green (Scroll to top button)
 */
 
 html {
@@ -111,3 +112,20 @@ a {
 #social-media {
     font-size:30px;
 }
+
+/*------------------------------------------Scroll to top button*/
+#scrollBtn {
+  display: none; 
+  position: fixed; 
+  bottom: 20px; 
+  right: 30px; 
+  z-index: 99; 
+  border: none; 
+  outline: none; 
+  background-color: #9BE89B;
+  color: #F5F5F5; 
+  padding: 10px;
+  border-radius: 10px; 
+  font-size: 30px; 
+}
+
