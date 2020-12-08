@@ -4,6 +4,9 @@
 #F5F5F5 = Off white background
 */
 
+html {
+    scroll-behavior:smooth;
+}
 
 /*------------------------------------------Fonts*/
 
