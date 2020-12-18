@@ -2,227 +2,242 @@
 <html lang="en">
 
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-		integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-	<link rel="stylesheet" href="assets/css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css">
     <script src="https://kit.fontawesome.com/cbd3a1b10f.js" crossorigin="anonymous"></script>
-	<style>
-		@import url('https://fonts.googleapis.com/css2?family=Chilanka&display=swap');
-	</style>
-	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js">
-	</script>
-	<script type="text/javascript">
-		(function(){
-          emailjs.init("user_R15OC22cDobzkSy9K9v3a");
-          
-	   })();
-	</script>
-	<title>Wholesome Kitchen</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Chilanka&display=swap');
+    </style>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init("user_R15OC22cDobzkSy9K9v3a");
+
+        })();
+    </script>
+    <title>Wholesome Kitchen</title>
 </head>
 
 <body>
     <!--Scroll to top button-->
     <button onclick="topFunction()" id="scrollBtn" title="Go to top"> <i class="fas fa-arrow-up"></i> </button>
     <!--Page Header-->
-	<header>
-		<nav class="navbar navbar-expand-lg navbar-light">
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample10" aria-controls="navbarsExample10" aria-expanded="false" aria-label="Toggle navigation">
-	          <span class="navbar-toggler-icon"></span>
-	        </button>
-	
-			<div class="collapse navbar-collapse justify-content-md-center" id="navbarsExample10">
-				<ul class="navbar-nav">
-					<li class="nav-item">
-						<a class="nav-link" href="#">Home</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#about-us">About Us</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#menus">Menus</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#locations">Locations</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#book-table">Book a Table</a>
-					</li>
-				</ul>
-			</div>
-		</nav>
-		<div>
-			<div>
-				<img src="assets/images/hero-image.jpg" alt="" id="background">
-				<img src="assets/images/wholesome-kitchen.png" alt="" id="logo" class="rounded">
-			</div>
-			</div>
-	</header>
+    <header>
+        <!--Navigation bar-->
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <!--Navbar button-->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample10"
+                aria-controls="navbarsExample10" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-md-center" id="navbarsExample10">
+                <!--Navbar links-->
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about-us">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#menus">Menus</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#locations">Locations</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#book-table">Book a Table</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!--Hero image-->
+        <div>
+            <div>
+                <img src="assets/images/hero-image.jpg" alt="" id="background">
+                <img src="assets/images/wholesome-kitchen.png" alt="" id="logo" class="rounded">
+            </div>
+        </div>
+    </header>
 
     <!--About Us Section-->
-	<section id="about-us">
+    <section id="about-us">
         <h2>About Us...</h2>
-    
-		<div id="our-story" class="container">
-			<div class="row">
-				<div class="col-sm-12 col-md-6">
-					<img src="assets/images/our-story.jpg" alt="" class="about-image rounded-circle" id="story-image">
-                    
-		        </div>
-				<div class="col-sm-12 col-md-6">
-					<p class="about-paragraph" id="story-paragraph"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-							                    ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-							                    nisi ut aliquip ex ea commodo consequat. 
+
+        <div id="our-story" class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-6">
+                    <img src="assets/images/our-story.jpg" alt="" class="about-image rounded-circle" id="story-image">
+
+                </div>
+                <div class="col-sm-12 col-md-6">
+                    <p class="about-paragraph" id="story-paragraph"> Lorem ipsum dolor sit amet, consectetur adipiscing
+                        elit, sed do eiusmod tempor incididunt
+                        ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                        laboris
+                        nisi ut aliquip ex ea commodo consequat.
                     </p>
-		        </div>
-				</div>
-			</div>
+                </div>
+            </div>
+        </div>
 
         <div id="our-founders" class="container">
-        <div class="row">
-				<div class="col-sm-12 col-md-6">
-			
-					<p class="about-paragraph" id="founders-paragraph"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-							ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-							nisi ut aliquip ex ea commodo consequat. </p>
-		            </div>
-					<div class="col-sm-12 col-md-6">
-                    <img  src="assets/images/our-founders.jpg" alt="" class="about-image rounded-circle" id="founders-image">
-						
-		
-					</div>
-				</div>
-			</div>
+            <div class="row">
+                <div class="col-sm-12 col-md-6">
+
+                    <p class="about-paragraph" id="founders-paragraph"> Lorem ipsum dolor sit amet, consectetur
+                        adipiscing elit, sed do eiusmod tempor incididunt
+                        ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                        laboris
+                        nisi ut aliquip ex ea commodo consequat. </p>
+                </div>
+                <div class="col-sm-12 col-md-6">
+                    <img src="assets/images/our-founders.jpg" alt="" class="about-image rounded-circle"
+                        id="founders-image">
+
+
+                </div>
+            </div>
+        </div>
 
         <div id="our-team" class="container">
-			<div class="row">
-				<div class="col-sm-12 col-md-6">
-					<img  src="assets/images/our-team.jpg" alt="" class="about-image rounded-circle" id="team-image">
-		            </div>
-					<div class="col-sm-12 col-md-6">
-						<p class="about-paragraph" id="team-paragraph"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-							ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-							nisi ut aliquip ex ea commodo consequat. </p>
-		
-					</div>
-				</div>
-			</div>
-        
+            <div class="row">
+                <div class="col-sm-12 col-md-6">
+                    <img src="assets/images/our-team.jpg" alt="" class="about-image rounded-circle" id="team-image">
+                </div>
+                <div class="col-sm-12 col-md-6">
+                    <p class="about-paragraph" id="team-paragraph"> Lorem ipsum dolor sit amet, consectetur adipiscing
+                        elit, sed do eiusmod tempor incididunt
+                        ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                        laboris
+                        nisi ut aliquip ex ea commodo consequat. </p>
+
+                </div>
+            </div>
+        </div>
+
     </section>
 
     <!--Menus Section-->
-	
+
 
     <!--Locations Section-->
     <section id="locations">
-    <h2>Locations</h2>
+        <h2>Locations</h2>
+        <!--Google Map API div-->
         <div id="map"></div>
     </section>
 
     <!--Contact Form Section-->
-	<section id="book-table">
-    <h2>Book a Table</h2>
-	<form onsubmit="return sendMail(this);">
+    <section id="book-table">
+        <h2>Book a Table</h2>
+        <!--Contact Form-->
+        <form onsubmit="return sendMail(this);">
 
-		<div class="form-group">
-			<label for="fullName">Full Name</label>
-			<input type="text" class="form-control" name="name" id="fullName" placeholder="Enter name">
-		</div>
+            <div class="form-group">
+                <label for="fullName">Full Name</label>
+                <input type="text" class="form-control" name="name" id="fullName" placeholder="Enter name">
+            </div>
 
-		<div class="form-group">
-			<label for="emailAddress">Email Address</label>
-			<input type="email" class="form-control" name="emailaddress" id="emailAddress" placeholder="Enter email">
-	    </div>
+            <div class="form-group">
+                <label for="emailAddress">Email Address</label>
+                <input type="email" class="form-control" name="emailaddress" id="emailAddress"
+                    placeholder="Enter email">
+            </div>
 
-        <div class="form-group">
-			<label for="contactNumber">Contact Number</label>
-			<input type="number" class="form-control" name="contactnumber" id="contactNumber" placeholder="Enter contact number">
-	    </div>
+            <div class="form-group">
+                <label for="contactNumber">Contact Number</label>
+                <input type="number" class="form-control" name="contactnumber" id="contactNumber"
+                    placeholder="Enter contact number">
+            </div>
 
-        <div class="form-group">
-			<label for="location">Select Location</label>
-            <select class="form-control" name="location">
-                <option selected disabled>Please Select</option>
-                <option>Westminster</option>
-                <option>St. Pauls</option>
-                <option>Elephant & Castle</option>
-                <option>Brixton</option>
-            </select>
-	    </div>
+            <div class="form-group">
+                <label for="location">Select Location</label>
+                <select class="form-control" name="location">
+                    <option selected disabled>Please Select</option>
+                    <option>Westminster</option>
+                    <option>St. Pauls</option>
+                    <option>Elephant & Castle</option>
+                    <option>Brixton</option>
+                </select>
+            </div>
 
-        <div class="form-group">
-			<label for="date">Date</label>
-			<input type="date" class="form-control" name="date" id="date" placeholder="Select Date">
-	    </div>
+            <div class="form-group">
+                <label for="date">Date</label>
+                <input type="date" class="form-control" name="date" id="date" placeholder="Select Date">
+            </div>
 
-        <div class="form-group">
-			<label for="time">Time</label>
-			<input type="time" class="form-control" name="time" id="time" placeholder="Select Time">
-	    </div>
+            <div class="form-group">
+                <label for="time">Time</label>
+                <input type="time" class="form-control" name="time" id="time" placeholder="Select Time">
+            </div>
 
-		<button type="submit" class="btn btn-primary">Request Table</button>
+            <button type="submit" class="btn btn-primary">Request Table</button>
 
-	</form>
+        </form>
     </section>
 
     <!--Page Footer-->
-		<footer class="container-fluid">
-		<div id="footer-details" class="row">
-			<!--Footer Contact Details-->
-			<div class="col-sm-6">
-				<h5>Contact Us</h5>
-				<ul class="contact-list">
-					<li><i class="fas fa-phone">  </i> + 353 86 3477061</li>
-					<li><i class="fas fa-envelope">  </i> info@wholesomekitchen.com</li>
-				</ul>
-			</div>
-			<!--Footer Social Media Links-->
-			<div id="social-media" class="col-sm-6">
-				<h5>Our Social Media</h5>
-				<ul class="list-inline social-links">
-					<li class="list-inline-item">
-						<a href="https://facebook.com" target="_blank">
-							<i class="fab fa-facebook-f hvr-grow"></i>
-							<span class="sr-only">Facebook</span>
-						</a>
-					</li>
-					<li class="list-inline-item">
-						<a href="https://instagram.com" target="_blank">
-							<i class="fab fa-instagram hvr-grow"></i>
-							<span class="sr-only">Instagram</span>
-						</a>
-					</li>
-				</ul>
-			</div>
-		</div>
-	</footer>
+    <footer class="container-fluid">
+        <div id="footer-details" class="row">
+            <!--Footer Contact Details-->
+            <div class="col-sm-6">
+                <h5>Contact Us</h5>
+                <ul class="contact-list">
+                    <li><i class="fas fa-phone"> </i> + 353 86 3477061</li>
+                    <li><i class="fas fa-envelope"> </i> info@wholesomekitchen.com</li>
+                </ul>
+            </div>
+            <!--Footer Social Media Links-->
+            <div id="social-media" class="col-sm-6">
+                <h5>Our Social Media</h5>
+                <ul class="list-inline social-links">
+                    <li class="list-inline-item">
+                        <a href="https://facebook.com" target="_blank">
+                            <i class="fab fa-facebook-f hvr-grow"></i>
+                            <span class="sr-only">Facebook</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="https://instagram.com" target="_blank">
+                            <i class="fab fa-instagram hvr-grow"></i>
+                            <span class="sr-only">Instagram</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
 
     <!--Bootstrap Scripts-->
-	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-		integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
-	</script>
-	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-		integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
-	</script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
-		integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
-	</script>
-    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+        </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+        </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
+        </script>
+
     <script src="assets/js/about-us.js"></script>
     <script src="assets/js/maps.js"></script>
     <script src="assets/js/sendEmail.js"></script>
     <script src="assets/js/scroll.js"></script>
 
     <!--Scripts for Google Maps API-->
-    
     <script src="https://unpkg.com/@google/markerclustererplus@5.1.0/dist/markerclustererplus.min.js">
     </script>
-    <script 
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCIDwqcfYrqmFmO_FmuEJiFwIJZC9oXvkw&callback=initMap" defer>
-    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCIDwqcfYrqmFmO_FmuEJiFwIJZC9oXvkw&callback=initMap"
+        defer>
+        </script>
 
 </body>
 

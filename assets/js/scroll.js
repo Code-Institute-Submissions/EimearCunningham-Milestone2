@@ -1,3 +1,5 @@
+//Code source: W3schools.com
+
 //Get button:
 mybutton = document.getElementById("scrollBtn");
 

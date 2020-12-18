@@ -10,7 +10,6 @@ html {
 }
 
 /*------------------------------------------Fonts*/
-
 body {
   font-family: "Chilanka", cursive;
 }
@@ -23,7 +22,6 @@ body {
 }
 
 /*------------------------------------------Header image and logo*/
-
 #background {
   width: 100%;
   height: 600px;
@@ -32,8 +30,7 @@ body {
   
 }
 
-
-
+/*------------------------------------------Header image and logo - Media Queries*/
 @media only screen and (min-width: 100px) {
   #logo {
     position: absolute;
@@ -69,7 +66,6 @@ h2 {
     background:#F0FAEF;
     padding:20px;
 }
-
 
 .about-image {
     
