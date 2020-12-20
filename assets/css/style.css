@@ -81,6 +81,9 @@ h2 {
 }
 
 /*------------------------------------------Locations Section*/
+#locations {
+    background:#F0FAEF;
+}
 #map {
     height:600px;
     width:60%;
@@ -125,3 +128,44 @@ a {
   font-size: 30px; 
 }
 
+/*------------------------------------------Menu*/
+#menu {
+    background: #F5F5F5;
+}
+
+.tabs-container {
+    width:90%;
+    margin:auto;
+    padding-bottom:20px;
+}
+
+.tabHeader {
+    border:none;
+    outline:none;
+    background: transparent;
+    /*color:#eee;*/
+    padding: 6px 12px;
+    
+}
+
+.active-tab {
+    border: 1px solid #333 !important;
+    border-bottom: none !important;
+}
+
+.tabSection {
+    border: 1px solid #000000;
+    padding: 15px;
+}
+
+.hide-tab {
+    display:none;
+}
+
+.show-tab {
+    display: block;
+}
+
+.menu-price {
+    float:right;
+}

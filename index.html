@@ -13,6 +13,7 @@
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Chilanka&display=swap');
     </style>
+    
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js">
     </script>
     <script type="text/javascript">
@@ -124,9 +125,42 @@
         </div>
 
     </section>
-
     <!--Menus Section-->
-
+    <section id="menu">
+        <h2 class="menu-title">Menu</h2>
+        <section class="tabs-container">
+            <section class="tabs">
+                <button class="tabHeader active-tab" data-tab="1">Breakfast</button>
+                <button class="tabHeader" data-tab="2">Lunch</button>
+                <button class="tabHeader" data-tab="3">Drinks</button>
+                <button class="tabHeader" data-tab="4">Deserts</button>
+            </section>
+            <section id="tabSection-1" class="tabSection show-tab">
+                <p>BF Item 1<span class="menu-price">£0</span></p>
+                <p>Item 2<span class="menu-price">£0</span></p>
+                <p>Item 3<span class="menu-price">£0</span></p>
+                <p>Item 4<span class="menu-price">£0</span></p>
+            </section>
+            <section id="tabSection-2" class="tabSection hide-tab">
+                <p> LU Item 1<span class="menu-price">£0</span></p>
+                <p>Item 2<span class="menu-price">£0</span></p>
+                <p>Item 3<span class="menu-price">£0</span></p>
+                <p>Item 4<span class="menu-price">£0</span></p>
+            </section>
+            <section id="tabSection-3" class="tabSection hide-tab">
+                <p> DR Item 1<span class="menu-price">£0</span></p>
+                <p>Item 2<span class="menu-price">£0</span></p>
+                <p>Item 3<span class="menu-price">£0</span></p>
+                <p>Item 4<span class="menu-price">£0</span></p>
+            </section>
+            <section id="tabSection-4" class="tabSection hide-tab">
+                <p> DE Item 1<span class="menu-price">£0</span></p>
+                <p>Item 2<span class="menu-price">£0</span></p>
+                <p>Item 3<span class="menu-price">£0</span></p>
+                <p>Item 4<span class="menu-price">£0</span></p>
+            </section>
+        </section>
+    </section>
 
     <!--Locations Section-->
     <section id="locations">
@@ -139,28 +173,28 @@
     <section id="book-table">
         <h2>Book a Table</h2>
         <!--Contact Form-->
-        <form onsubmit="return sendMail(this);">
+        <form id="booking-form" action="" onsubmit="return sendMail(this);">
 
             <div class="form-group">
                 <label for="fullName">Full Name</label>
-                <input type="text" class="form-control" name="name" id="fullName" placeholder="Enter name">
+                <input type="text" class="form-control" name="name" id="fullName" placeholder="Enter name" required>
             </div>
 
             <div class="form-group">
                 <label for="emailAddress">Email Address</label>
                 <input type="email" class="form-control" name="emailaddress" id="emailAddress"
-                    placeholder="Enter email">
+                    placeholder="Enter email" required>
             </div>
 
             <div class="form-group">
                 <label for="contactNumber">Contact Number</label>
                 <input type="number" class="form-control" name="contactnumber" id="contactNumber"
-                    placeholder="Enter contact number">
+                    placeholder="Enter contact number" required>
             </div>
 
             <div class="form-group">
                 <label for="location">Select Location</label>
-                <select class="form-control" name="location">
+                <select class="form-control" name="location" required>
                     <option selected disabled>Please Select</option>
                     <option>Westminster</option>
                     <option>St. Pauls</option>
@@ -171,12 +205,12 @@
 
             <div class="form-group">
                 <label for="date">Date</label>
-                <input type="date" class="form-control" name="date" id="date" placeholder="Select Date">
+                <input type="date" class="form-control" name="date" id="date" placeholder="Select Date" required>
             </div>
 
             <div class="form-group">
                 <label for="time">Time</label>
-                <input type="time" class="form-control" name="time" id="time" placeholder="Select Time">
+                <input type="time" class="form-control" name="time" id="time" placeholder="Select Time" required>
             </div>
 
             <button type="submit" class="btn btn-primary">Request Table</button>
@@ -216,7 +250,14 @@
         </div>
     </footer>
 
-    <!--Bootstrap Scripts-->
+    
+    <!--Scripts for Google Maps API-->
+    <script src="https://unpkg.com/@google/markerclustererplus@5.1.0/dist/markerclustererplus.min.js">
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCIDwqcfYrqmFmO_FmuEJiFwIJZC9oXvkw&callback=initMap"
+        defer>
+        </script>
+
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
         </script>
@@ -226,18 +267,11 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
         integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
         </script>
-
     <script src="assets/js/about-us.js"></script>
     <script src="assets/js/maps.js"></script>
     <script src="assets/js/sendEmail.js"></script>
     <script src="assets/js/scroll.js"></script>
-
-    <!--Scripts for Google Maps API-->
-    <script src="https://unpkg.com/@google/markerclustererplus@5.1.0/dist/markerclustererplus.min.js">
-    </script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCIDwqcfYrqmFmO_FmuEJiFwIJZC9oXvkw&callback=initMap"
-        defer>
-        </script>
+    <script src="assets/js/menu.js"></script>
 
 </body>
 
