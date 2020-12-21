@@ -81,7 +81,7 @@ h2 {
 
 .about-image {
     
-    width:30vw;
+    width:90vw;
     height:40vh;
     padding:30px;
     opacity:0.6;
@@ -90,6 +90,13 @@ h2 {
 
 .about-paragraph {
     padding-top:50px;
+}
+
+/*------------------------------------------About Us Section - Media Queries*/
+@media only screen and (min-width: 768px) {
+  .about-image {
+    width:30vw;
+  }
 }
 
 /*------------------------------------------Locations Section*/
