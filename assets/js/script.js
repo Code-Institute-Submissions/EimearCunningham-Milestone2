@@ -1,4 +1,4 @@
-$(document).ready(function() {
+/*$(document).ready(function() {
 
     //About Us section functionality 
    $(".about-paragraph").hide();
@@ -14,7 +14,7 @@ $(document).ready(function() {
     $("#team-image").click(function(){
   $("#team-paragraph").show();
     });
-});
+});*/
 
 
 //Scroll to top button - Code source: W3schools.com
@@ -38,3 +38,19 @@ function topFunction() {
   document.body.scrollTop = 0; // For Safari
   document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 }
+
+//About Us section - On scroll function
+$(document).scroll(function() {
+    $(".about-paragraph").hide();
+  var y = $(this).scrollTop();
+  if (y > 250) {
+    $('#story-paragraph').show();
+  } 
+  if (y > 600) {
+    $('#founders-paragraph').show();
+  } 
+  if (y > 800) {
+    $('#team-paragraph').show();
+  } 
+  
+});
