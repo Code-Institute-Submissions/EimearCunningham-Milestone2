@@ -9,12 +9,20 @@ html {
     scroll-behavior:smooth;
 }
 
+section {
+    padding-top:50px;
+}
+
 /*------------------------------------------Fonts*/
 body {
   font-family: "Chilanka", cursive;
 }
 
 /*------------------------------------------NavBar*/
+.navbar {
+    background-color: #F0FAEF;
+}
+
 .nav-item {
   font-size: 20px;
   padding: 5px 20px;
@@ -28,6 +36,10 @@ body {
   opacity: 0.3;
   position: relative;
   
+}
+
+#logo {
+    padding-bottom:60px;
 }
 
 /*------------------------------------------Header image and logo - Media Queries*/
@@ -64,7 +76,7 @@ h2 {
 
 #about-us {
     background:#F0FAEF;
-    padding:20px;
+    
 }
 
 .about-image {

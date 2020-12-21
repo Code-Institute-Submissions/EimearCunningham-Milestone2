@@ -20,5 +20,6 @@ function sendMail(contactForm) {
         function(error) {
             console.log("FAILED", error);
         });
+        //Stop new page from loading when 'Submit' is clicked
         return false;
 };
