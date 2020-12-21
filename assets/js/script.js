@@ -40,17 +40,22 @@ function topFunction() {
 }
 
 //About Us section - On scroll function
+$(".about-paragraph").hide();
 $(document).scroll(function() {
-    $(".about-paragraph").hide();
+
+    
+
   var y = $(this).scrollTop();
+
   if (y > 250) {
-    $('#story-paragraph').show();
+    $('#story-paragraph').fadeIn(1000);
   } 
   if (y > 600) {
-    $('#founders-paragraph').show();
+    $('#founders-paragraph').fadeIn(1000);
   } 
   if (y > 800) {
-    $('#team-paragraph').show();
+    $('#team-paragraph').fadeIn(1000);
   } 
   
 });
+

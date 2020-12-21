@@ -18,6 +18,22 @@ body {
   font-family: "Chilanka", cursive;
 }
 
+/*------------------------------------------Headings*/
+h2 {
+    color: #4A8646;
+    text-align:center;
+    padding:20px;
+    font-size:40px;
+    
+}
+
+h3 {
+    color: #4A8646;
+    text-align:center;
+    padding:20px;
+    font-size:30px;
+}
+
 /*------------------------------------------NavBar*/
 .navbar {
     background-color: #F0FAEF;
@@ -67,12 +83,7 @@ body {
 }
 
 /*------------------------------------------About Us Section*/
-h2 {
-    color: #4A8646;
-    text-align:center;
-    padding:20px;
-    
-}
+
 
 #about-us {
     background:#F0FAEF;
@@ -85,7 +96,7 @@ h2 {
     height:40vh;
     padding:30px;
     opacity:0.6;
-    
+
 }
 
 .about-paragraph {
