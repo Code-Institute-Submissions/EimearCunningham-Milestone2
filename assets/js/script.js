@@ -1,4 +1,23 @@
-//Code source: W3schools.com
+$(document).ready(function() {
+
+    //About Us section functionality 
+   $(".about-paragraph").hide();
+
+    $("#story-image").click(function(){
+  $("#story-paragraph").show();
+    });
+
+    $("#founders-image").click(function(){
+  $("#founders-paragraph").show();
+    });
+
+    $("#team-image").click(function(){
+  $("#team-paragraph").show();
+    });
+});
+
+
+//Scroll to top button - Code source: W3schools.com
 
 //Get button:
 mybutton = document.getElementById("scrollBtn");
