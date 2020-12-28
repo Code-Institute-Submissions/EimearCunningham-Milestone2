@@ -127,6 +127,20 @@ form {
     padding:20px;
 }
 
+
+.form-group i {
+    visibility: hidden;
+    top: 40px;
+    right: 10px;
+
+}
+
+.form-group small {
+    visibility: hidden;
+    bottom: 0;
+    left: 0;
+}
+
 /*------------------------------------------Footer*/
 footer {
     background: #4A8646;
