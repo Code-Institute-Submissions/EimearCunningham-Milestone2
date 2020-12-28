@@ -178,14 +178,14 @@
     <section id="book-table" class="main-section">
         <h2>Book a Table</h2>
         <!--Contact Form-->
-        <form id="booking-form" action="" onsubmit="return sendMail(this);">
+        <form id="form" action="" onsubmit="return sendMail(this);">
 
             <div class="form-group">
-                <label for="fullName">Full Name</label>
-                <input class="form-control" type="text" name="name" id="fullName" placeholder="Enter name">
+                <label for="name">Full Name</label>
+                <input class="form-control" type="text" name="name" id="name" placeholder="Enter name">
                 <i class="fas fa-check-circle"></i>
                 <i class="fas fa-exclamation-circle"></i>
-                <small>Error Message</small>
+                <small>Error message</small>
             </div>
 
             <div class="form-group">
@@ -236,8 +236,9 @@
                 <small>Error Message</small>
             </div>
 
-            <button type="submit" class="btn btn-primary">Request Table</button>
-
+            <div class="text-center">
+                <button type="submit" class="btn btn-primary" id="submit">Request Table</button>
+            </div>
         </form>
     </section>
 
