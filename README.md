@@ -15,17 +15,20 @@ A webpage for a fictional vegan cafe chain - "Green Kitchen Cafe". The main aim 
 
 ### This project is the best way to help them achieve these things because:
 * The website is easy to navigate and uses a clear layout to display each of the above items.
-
+* Each section of the page is easily accessable through the navigation bar which is fixed to the top of the page. 
+* The site gives the user background information in the 'About Us' section, and then goes on to give detailed information on the cafes menu and location.
+* The 'Book a Table' section allows the user to request a table at any of the cafes 4 locations. After requesting a table an email is generated, which allows the owner to confirm/reject the customers booking.
 
 ## User Stories:
 1.	As a user, I want to learn more about the café, and read some background information to get a feel for the company.
-2.	As a user, I want to read through the menus on offer at the café.
-3.	As a user, I want to see where the cafes are located on a map.
-4.	As a user, I want to be able to be able to contact the company to reserve a table.
+2.	As a user, I want to view the cafes menu and see what items are on offer for breakfast, lunch, drinks and dessert at the café.
+3.	As a user, I want to see where the cafes are located on a map. I want to be able to see the cafes exact location so that I can decide which one I would like to visit.
+4.	As a user, I want to be able to be able to contact the company to reserve a table. I would like to be able to select the cafe location convenient for me, and then select my preffered date and time.
+5.  I would also like to be able to contact an individual cafe location should I have any queries.
 
 
 ## Design 
-- Color Scheme - I decided on using a green and white color scheme for the webpage to convey a sense of balance, health and simplicity. These connotations tie in with the business model of the company.
+- Color Scheme - I decided on using a green and white color scheme for the webpage to convey a sense of balance, health and simplicity. These connotations tie in with the business model of the company, which is a wholesome, vegan cafe.
     - #4A8646 - 'Middle Green'  
     - #F0FAEF - 'Mint Cream'
     - #F5F5F5 - 'Cultured'
@@ -43,20 +46,21 @@ A webpage for a fictional vegan cafe chain - "Green Kitchen Cafe". The main aim 
 
 # Features
 ### Header
-* Navigation Bar - A fixed-top navigation bar with a link to each section of the page. The fixed-top navigation bar gives the user the option to go to a different section of the site at any time.
-* Hero Image with text overlay - Responsive image of cafe interior with cafe logo placed over. Canva was used to design the logo.
+* Navigation Bar - A fixed-top navigation bar with a link to each section of the page. The fixed-top navigation bar gives the user the option to go to a different section of the site at any time. Smooth scroll is used throughout the page for a clean finish.
+* Hero Image with text overlay - Responsive image of cafe interior with cafe logo placed over the image. Canva was used to design the logo.
 
 ### About Us Section 
-* 3 images (Our story, our founders, our team), with an on scroll function which shows corresponding text when users scroll to a certain point.
+* 3 images (Our story, our founders, our team), with an on scroll function which shows corresponding text when users scroll to a certain point. This interactivity makes the page more intruiging for the user.
 
 ### Menus Section
-* Menu with 4 tabs - Breakfast, lunch, desserts and drinks. Users can easily select a tab and see relevant menu items. The tabbed menu means that users do not have to search through all menu items to find a dish. 
+* Menu with 4 tabs - Breakfast, lunch, desserts and drinks. Users can easily select a tab and see relevant menu items. The tabbed menu means that users do not have to search through all of the menu items to find what they are looking for.
 
 ### Locations Section
-* Map with a marker for each cafe location. When a location is clicked on more information about the location is shows. (Cafe name and address)
+* Google Maps API used to display a map with a marker for each cafe location. When a location is clicked on, more information about the location is shown (Cafe address and contact information)
 
 ### Book a Table Section
-* Form to book a table in any of the chains locations. EmailJS used to add functionality. 
+* Form to book a table in any of the chains locations. EmailJS was used to add functionality which sends an email to the cafe admin when a user wants to book a table. Becasue this is a fictional website the email is sent to my personal email.
+* Form validation was added using Javascript to ensure to blank fields are submitted, and to add custom error messages for each input.
 
 ### Page Footer
 * Footer with contact information and social media links. 
