@@ -11,7 +11,7 @@ html {
 }
 
 .main-section {
-    padding:75px 0px 75px 0px;
+    padding:30px 0px 75px 0px;
 }
 
 /*------------------------------------------Fonts*/
@@ -235,6 +235,13 @@ a {
     background: #FAFAFA;
 }
 
+.menu-container {
+    background-color: #F0FAEF;
+    padding-top: 20px;
+    border: 1px solid #4A8646;
+    border-radius: 3px;
+}
+
 .tabs {
     text-align: center;
     font-size: 20px;
@@ -250,7 +257,7 @@ a {
 
 .tabHeader {
     border:none;
-    outline:none;
+    outline:none !important;
     background: transparent;
     padding: 6px 25px;
     color: #4A8646;
@@ -258,7 +265,8 @@ a {
 }
 
 .active-tab {
-    border: 1px solid #4A8646 !important;
+    border: 2px solid #4A8646 !important;
+    border-radius: 3px;
 }
 
 .tabSection {
@@ -274,6 +282,6 @@ a {
 }
 
 .menu-price {
-    float:right;
+    float: right;
 }
 
