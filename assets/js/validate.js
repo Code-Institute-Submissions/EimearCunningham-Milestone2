@@ -26,25 +26,25 @@ function checkInputs() {
 
     // check name input
     if (nameValue === '') {
-        setErrorFor(name, 'Name cannot be blank');
+        setErrorFor(name, "We require a name for your table reservation");
     } else {
         setSuccessFor(name);
     }
 
     // check email input
     if (emailValue === '') {
-        setErrorFor(emailAddress, 'Email cannot be blank');
+        setErrorFor(emailAddress, "We'll need your email address to confirm your booking");
     } else if(!isEmail(emailValue)) {
-        setErrorFor(emailAddress, 'Email is not valid');
+        setErrorFor(emailAddress, "Please enter a valid email address");
     } else {
         setSuccessFor(emailAddress);
     }
 
     // check number input
     if (numberValue === '') {
-        setErrorFor(contactNumber, 'Number cannot be blank');
+        setErrorFor(contactNumber, "We'll need a contact number to contact you about your booking");
     } else if(!isNumber(numberValue)) {
-        setErrorFor(contactNumber, 'Number must be 10 digits');
+        setErrorFor(contactNumber, "Number must be 10 digits");
     } else {
         setSuccessFor(contactNumber);
     }
@@ -52,7 +52,7 @@ function checkInputs() {
 
     // check date input
     if (dateValue === '') {
-        setErrorFor(date, 'Date cannot be blank');
+        setErrorFor(date, "Please select the date you would like to book your table");
 
     } else {
         setSuccessFor(date);
@@ -61,7 +61,7 @@ function checkInputs() {
 
     // check time input 
     if (timeValue === '') {
-        setErrorFor(time, 'Time cannot be blank');
+        setErrorFor(time, "Please select the time you would like to book your table");
 
     } else {
         setSuccessFor(time);
