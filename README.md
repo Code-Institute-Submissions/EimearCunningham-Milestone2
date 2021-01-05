@@ -1,5 +1,5 @@
 # Green Kitchen Cafe
-![Site shown on different devices]()
+![Site shown on different devices](assets/images/readme-images/responsive.JPG)
 
 Live website: http
 
@@ -66,6 +66,7 @@ A webpage for a fictional vegan cafe chain - "Green Kitchen Cafe". The main aim 
 * Footer with contact information and social media links. 
 
 ### Features Left to Implement
+* When requesting to book a table, certain times that are booked up / not available could be blocked out to prevent the user from booking. Because this is a fictional site this is not yet possible to implement.
 
 
 # Technologies Used
@@ -77,6 +78,7 @@ A webpage for a fictional vegan cafe chain - "Green Kitchen Cafe". The main aim 
 * Font Awesome - Used to add contact and social media icons to the footer.
 * Hover.css - Added interactivity to social media icons in the footer.
 * Canva - Used to design logo
+* Am I responsive
 # Testing
 
 

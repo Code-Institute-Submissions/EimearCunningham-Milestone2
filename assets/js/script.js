@@ -24,9 +24,6 @@ function topFunction() {
 //About Us section - On scroll function
 $(".about-paragraph").hide();
 $(document).scroll(function() {
-
-    
-
   var y = $(this).scrollTop();
 
   if (y > 250) {
@@ -38,6 +35,10 @@ $(document).scroll(function() {
   if (y > 800) {
     $('#team-paragraph').fadeIn(1000);
   } 
-  
+});
+
+// to collapse menu on small and medium screen sizes once link is selected
+$('.navbar-nav>li>a').on('click', function(){
+    $('.navbar-collapse').collapse('hide');
 });
 
