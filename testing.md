@@ -60,19 +60,29 @@ The following results and recommendations were obtained:
     * On testing the responsiveness of the About Us section using Chrom developer tools, I noticed the sectio looked better on small screen sizes without the 3 circular images. I decided to only show the images on medium and large screen sizes (above 768px)
 
 3. Menu Section 
-    * 
+    * The menu section was manually tested by selecting each of the 4 tab headers to unsure they work.
+    * I also ensured that each tab header showed the correct corresponding tab sections, so that the user is viewing the correct menu items for breakfast, lunch etc.
 
 4. Locations Section  
-    * 
+    * To test the locations section, I clicked on each map marker to unsure an infowindow was displayed on click.
+    * I ensured that each infowindow displayed the correct information for that location.
+    * I tested the responsiveness of the map using chrome developer tools, to ensure the width of the map was 70% on all device sizes.
 
 5. Book a Table Section
-    * 
-
+    * The Book a Table form utilises EmailJs. Each time a user submits a valid form, an email is sent to my personal email address (If site was not fictional this would be sent to the business owner). I tested this by ensuring I received an email with the form information. Example email can be seen below:
+    ![EmailJS example email](assets/images/readme-images/emailjs.JPG)
+    * The form in this section has form validation to ensure this user submits valid information.
+    * Each input was individually tested as follows:
+        * Name input - Upon pressing submit with an empty 'Name' field, an error message show and the error class is applied to the input resulting in an exclamtion icon and red border. Once the user has input text and pressed 'Submit', the error message is hidden and the success class is applied to the input - resulting in a green checkmark icon and green border.
+        * Email Address input - When the user tries to submit the form without entering an email address, an error message is shown to inform the user that an email address is required. Tested using an invalid email address (e@e.c) - User received error message stating that email address is not valid. Input a valid email address to unsure the input border turned green and the checkmark icon appeared.
+        * Contact Number input - Entered empty field to ensure the user received error message. Tested using invalid number (less than 10 digits) to ensure user was informed that contact number must be 10 digits in length. Tested by enter 10-digit long number to ensure success class was added.
+        * Date input - Tested by submitting empty input to unsure user receives error message that date is required. Tested after selecting a date that the success class is applied and error message removed. 
+        * Time input - Pressed 'Submit' without inputting a time to unsure user was notified that a time was required. Tested again by entering a time and ensuring success class was applied to the input.
 6. Pager footer 
-    * 
+    * Social media links in footer were manually tested to enure they led to Facebook's homepage and Instagram's homepage. They were also tested to unsure the pages opened as a new tab to ensure the user could easily navigate back to the cafes site.
 
 7. Scroll to Top button
-    
+    * The scroll to top button was tested to a) ensure it appears once the user begins to scroll and b) ensure when clicked on it brings the user to the top of the page as would be expected. 
 
 ## Accessability Testing
 [WAVE Web Accessability Evaluation Tool](https://wave.webaim.org/) was used to test the accessability of my site.
