@@ -5,28 +5,28 @@ function initMap() {
     // Object for each cafe location which includes map co-ordinates and info for infowindow
     var westminster =
     {
-        info: 'Westminster',
+        info: '<h4>Westminster</h4> Derby Gate<br>Westminster<br>London<br>SW1A 2DG<br><b>+004495678</b>',
         lat: 51.501903,
         lng: -0.124273,
     }
 
     var stpauls =
     {
-        info: '<strong>St. Pauls</strong>',
+        info: '<h4>St Pauls</h4>4 Cannon St<br>London<br>EC4M 5AB<br><b>+004487654</b>',
         lat: 51.512883,
         lng: -0.096657
     }
 
     var elephantandcastle =
     {
-        info: '<strong>Elephant & Castle</strong>',
+        info: '<h4>Elephant & Castle</h4>46 St Georges Rd<br>Elephant and Castle<br>London<br>SE1 6ET<br><b>+004412345</b>',
         lat: 51.495489,
         lng: -0.102219
     }
 
     var brixton =
     {
-        info: '<strong>Brixton</strong>',
+        info: '<h4>Brixton</h4>49 Brixton Station Rd<br>Brixton<br>London<br>SW9 8PQ<br><b>+004434567</b>',
         lat: 51.463402,
         lng: -0.111467
     }
