@@ -2,7 +2,7 @@ const form = document.getElementById("form");
 const name = document.getElementById("name");
 const emailaddress = document.getElementById("emailAddress");
 const contactnumber = document.getElementById("contactNumber");
-// const location = document.getElementById('location');
+const cafe = document.getElementById('location');
 const date = document.getElementById("date");
 const time = document.getElementById("time");
 
@@ -22,7 +22,7 @@ function checkInputs() {
   const nameValue = name.value;
   const emailValue = emailaddress.value;
   const numberValue = contactnumber.value;
-  // const locationValue = location.value;
+  const cafeValue = cafe.value;
   const dateValue = date.value;
   const timeValue = time.value;
 
@@ -55,6 +55,16 @@ function checkInputs() {
     setErrorFor(contactNumber, "Number must be 10 digits");
   } else {
     setSuccessFor(contactNumber);
+  }
+
+  // check date input
+  if (cafeValue === "") {
+    setErrorFor(
+      cafe,
+      "Please outline your preferred location"
+    );
+  } else {
+    setSuccessFor(cafe);
   }
 
   // check date input
