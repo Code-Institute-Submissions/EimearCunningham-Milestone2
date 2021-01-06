@@ -1,11 +1,11 @@
-
-//Scroll to top button - Code source: W3schools.com
-
+//---------------------------------------------Scroll to top button - Code source: W3schools.com
 //Get button:
 mybutton = document.getElementById("scrollBtn");
 
 // Show button when user scrolls down 20px from top of page
-window.onscroll = function() {scrollFunction()};
+window.onscroll = function () {
+  scrollFunction();
+};
 
 function scrollFunction() {
   if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
@@ -21,25 +21,23 @@ function topFunction() {
   document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 }
 
-//About Us section - On scroll function
+//---------------------------------------------About Us section - On scroll function
 $(".about-paragraph").hide();
-$(document).scroll(function() {
+$(document).scroll(function () {
   var y = $(this).scrollTop();
 
   if (y > 250) {
-    $('#story-paragraph').fadeIn(1000);
-  } 
+    $("#story-paragraph").fadeIn(1000);
+  }
   if (y > 600) {
-    $('#founders-paragraph').fadeIn(1000);
-  } 
+    $("#founders-paragraph").fadeIn(1000);
+  }
   if (y > 800) {
-    $('#team-paragraph').fadeIn(1000);
-  } 
+    $("#team-paragraph").fadeIn(1000);
+  }
 });
 
-// to collapse menu on small and medium screen sizes once link is selected
-$('.navbar-nav>li>a').on('click', function(){
-    $('.navbar-collapse').collapse('hide');
+//---------------------------------------------On click function to collapse menu on sm & md screen sizes
+$(".navbar-nav>li>a").on("click", function () {
+  $(".navbar-collapse").collapse("hide");
 });
-
-
