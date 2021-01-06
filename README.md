@@ -116,7 +116,8 @@ This project was deployed using GitHub pages.
 * Code Institute course matierial - sendEmail.js
 * Nsquared Coding Youtube Tutorial (https://www.youtube.com/watch?v=irxE-MAdR_M) - Main source for tabbed menu code
 ## Text
-* Menu items retreived from https://deliciouslyella.com/
+* Menu items retreived from https://deliciouslyella.com/wp-content/uploads/2019/06/Deliciously_Ella_deli_menu.pdf
+* Text used in 'About Us' section derived from https://deliciouslyella.com/about/ and https://riversidecafeperth.com.au/our-team/
 ## Images
 * All images used are from Unsplash.com
 ## Media
