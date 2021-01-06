@@ -70,15 +70,21 @@ A webpage for a fictional vegan cafe chain - "Green Kitchen Cafe". The main aim 
 
 
 # Technologies Used
+## Languages, frameworks and libraries used
 * HTML5, CSS3 and Javascript were the programming languages used for this project.
-* Unsplash.com - Provided all images used.
-* Tiny PNG - Used to reduce file size of images.
-* Google Maps API - Used to provided map with locations of cafes.
-* EmailJS - Added functionality to the 'Book a Table' form. 
-* Font Awesome - Used to add contact and social media icons to the footer.
-* Hover.css - Added interactivity to social media icons in the footer.
-* Canva - Used to design logo
-* Am I responsive
+* [jQuery](https://jquery.com/)- jQuery was used in the 'About Us' section to create a scroll function.
+* [Bootstrap](https://getbootstrap.com/) - Bootstrap framework was used throughout to add responsiveness.
+* [Hover.css](https://ianlunn.github.io/Hover/) - Hover.css - Added interactivity to social media icons in the footer.
+* [Hover.css](https://fontawesome.com/) - Font Awesome - Used to add contact and social media icons to the footer.
+
+## Other technologies used
+* [Coolers.co](https://coolors.co/) - Coolers was used as part of the planning process, to select the various colors for the page.
+* [Unsplash.com](https://unsplash.com/Unsplash.com) - Provided all images used.
+* [Google Maps API](https://developers.google.com/maps/documentation/javascript/overview) -Used to provided map with locations of cafes.
+* [EmailJS](https://www.emailjs.com/) - Added functionality to the 'Book a Table' form. 
+* [Canva](https://www.canva.com/en_gb/)- Used to design logo.
+* [Am I Responsive](http://ami.responsivedesign.is/) - Used to create responsive.JPG for README.
+* [Balsamiq](https://balsamiq.com/wireframes/) - Desktop app used to create wireframes.
 # Testing
 
 
