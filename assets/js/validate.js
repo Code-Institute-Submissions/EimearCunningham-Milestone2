@@ -12,6 +12,9 @@ form.addEventListener('submit', (e) => {
 
     // call checkInputs function
     checkInputs();
+
+    //document.querySelector("#submitModal").style.display = "inline-flex";
+    $('#submitModal').modal('show');
 });
 
 // check to see if input is empty/valid

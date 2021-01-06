@@ -42,8 +42,4 @@ $('.navbar-nav>li>a').on('click', function(){
     $('.navbar-collapse').collapse('hide');
 });
 
-$('#form').on('submit', function(e){
-  $('#submitModal').modal('show');
-  e.preventDefault();
-});
 

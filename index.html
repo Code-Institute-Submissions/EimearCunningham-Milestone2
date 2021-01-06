@@ -10,15 +10,20 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!--Stylesheets-->
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css">
 
+    <!--FontAwesome Script-->
     <script src="https://kit.fontawesome.com/cbd3a1b10f.js" crossorigin="anonymous"></script>
+
+    <!--Google Font-->
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Chilanka&display=swap');
     </style>
 
+    <!--Scripts-->
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js">
     </script>
     <script type="text/javascript">
@@ -26,12 +31,15 @@
             emailjs.init("user_R15OC22cDobzkSy9K9v3a");
         })();
     </script>
+
+    <!--Page Title-->
     <title>Wholesome Kitchen</title>
 </head>
 
 <body>
     <!--Scroll to top button-->
-    <button onclick="topFunction()" id="scrollBtn" title="Go to top"> <i class="fas fa-arrow-up"></i> </button>
+    <button onclick="topFunction()" id="scrollBtn"> <i class="fas fa-arrow-up"></i> </button>
+    
     <!--Page Header-->
     <header>
         <!--Navigation bar-->
@@ -63,6 +71,7 @@
                 </ul>
             </div>
         </nav>
+
         <!--Hero image-->
         <div>
             <div>
@@ -75,16 +84,17 @@
     <!--About Us Section-->
     <section id="about-us" class="main-section">
         <h2>About Us...</h2>
-
+    
+        <!--Our story div-->
         <div id="our-story" class="container">
             <div class="row">
                 <div class="col-sm-12 col-md-6">
-                    <img src="assets/images/our-story.jpg" alt="" class="about-image rounded-circle d-none d-md-block" id="story-image">
-
+                    <img src="assets/images/our-story.jpg" alt="" class="about-image rounded-circle d-none d-md-block"
+                        id="story-image">
                 </div>
                 <div class="col-sm-12 col-md-6 about-paragraph text-center" id="story-paragraph">
                     <h3> Our Story</h3>
-                    <p > Lorem ipsum dolor sit amet, consectetur adipiscing
+                    <p> Lorem ipsum dolor sit amet, consectetur adipiscing
                         elit, sed do eiusmod tempor incididunt
                         ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
                         laboris
@@ -93,29 +103,31 @@
                 </div>
             </div>
         </div>
-
+    
+        <!--Our founders div-->
         <div id="our-founders" class="container">
             <div class="row">
-        
                 <div class="col-sm-12 col-md-6">
-                    <img src="assets/images/our-founders.jpg" alt="" class="about-image rounded-circle d-none d-md-block" id="founders-image">
+                    <img src="assets/images/our-founders.jpg" alt="" class="about-image rounded-circle d-none d-md-block"
+                        id="founders-image">
                 </div>
-                    <div class="col-sm-12 col-md-6 about-paragraph text-center" id="founders-paragraph">
-                        <h3>Our Founders</h3>
-                        <p> Lorem ipsum dolor sit amet, consectetur
-                            adipiscing elit, sed do eiusmod tempor incididunt
-                            ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                            laboris
-                            nisi ut aliquip ex ea commodo consequat. </p>
-                    </div>
+                <div class="col-sm-12 col-md-6 about-paragraph text-center" id="founders-paragraph">
+                    <h3>Our Founders</h3>
+                    <p> Lorem ipsum dolor sit amet, consectetur
+                        adipiscing elit, sed do eiusmod tempor incididunt
+                        ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                        laboris
+                        nisi ut aliquip ex ea commodo consequat. </p>
                 </div>
             </div>
-        
-
+        </div>
+    
+        <!--Our team div-->
         <div id="our-team" class="container">
             <div class="row">
                 <div class="col-sm-12 col-md-6">
-                    <img src="assets/images/our-team.jpg" alt="" class="about-image rounded-circle d-none d-md-block" id="team-image">
+                    <img src="assets/images/our-team.jpg" alt="" class="about-image rounded-circle d-none d-md-block"
+                        id="team-image">
                 </div>
                 <div class="col-sm-12 col-md-6 about-paragraph text-center" id="team-paragraph">
                     <h3>Our Team</h3>
@@ -124,47 +136,56 @@
                         ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
                         laboris
                         nisi ut aliquip ex ea commodo consequat. </p>
-
                 </div>
             </div>
         </div>
-
     </section>
+
     <!--Menus Section-->
     <section id="menu" class="main-section">
         <h2 class="menu-title">Menu</h2>
         <section class="container menu-container">
-        <section class="tabs-container">
-            <section class="tabs">
-                <button class="tabHeader active-tab" data-tab="1">BREAKFAST</button>
-                <button class="tabHeader" data-tab="2">LUNCH</button>
-                <button class="tabHeader" data-tab="3">DRINKS</button>
-                <button class="tabHeader" data-tab="4">DESSERTS</button>
-            </section>
-            <section id="tabSection-1" class="tabSection show-tab">
-                <p>Sourdough Toast with Smashed Avocado<span class="menu-price">£6.50</span></p>
-                <p>Cacao Overnight Oats<span class="menu-price">£5.25</span></p>
-                <p>Bircher Muesli with Fruit Compote<span class="menu-price">£5.25</span></p>
-                <p>Homemade Pancakes<span class="menu-price">£6.00</span></p>
-            </section>
-            <section id="tabSection-2" class="tabSection hide-tab">
-                <p>Mexican Bowl<span class="menu-price">£8.00</span></p>
-                <p>Tuscan Bean Stew<span class="menu-price">£9.50</span></p>
-                <p>Green Lentil & Coconut Dahl<span class="menu-price">£8.50</span></p>
-                <p>Buddha Bowl<span class="menu-price">£7.50</span></p>
-            </section>
-            <section id="tabSection-3" class="tabSection hide-tab">
-                <p>Organic cold-pressed Orange Juice<span class="menu-price">£3.00</span></p>
-                <p>Kombucha<span class="menu-price">£4.50</span></p>
-                <p>Green Glow Smoothie<span class="menu-price">£5.00</span></p>
-                <p>Berry & Beetroot Smoothie<span class="menu-price">£5.00</span></p>
-            </section>
-            <section id="tabSection-4" class="tabSection hide-tab">
-                <p>Peanut Butter Brownie<span class="menu-price">£4.50</span></p>
-                <p>Vanilla Vegan Cheesecake<span class="menu-price">£4.50</span></p>
-                <p>Tahini Almond Cookies<span class="menu-price">£5.00</span></p>
-                <p>Gluten-free Chocolate Pudding<span class="menu-price">£5.00</span></p>
-            </section>
+    
+            <!--Menu tabs-->
+            <section class="tabs-container">
+                <section class="tabs">
+                    <button class="tabHeader active-tab" data-tab="1">BREAKFAST</button>
+                    <button class="tabHeader" data-tab="2">LUNCH</button>
+                    <button class="tabHeader" data-tab="3">DRINKS</button>
+                    <button class="tabHeader" data-tab="4">DESSERTS</button>
+                </section>
+    
+                <!--Breakfast tab section-->
+                <section id="tabSection-1" class="tabSection show-tab">
+                    <p>Sourdough Toast with Smashed Avocado<span class="menu-price">£6.50</span></p>
+                    <p>Cacao Overnight Oats<span class="menu-price">£5.25</span></p>
+                    <p>Bircher Muesli with Fruit Compote<span class="menu-price">£5.25</span></p>
+                    <p>Homemade Pancakes<span class="menu-price">£6.00</span></p>
+                </section>
+    
+                <!--Lunch tab section-->
+                <section id="tabSection-2" class="tabSection hide-tab">
+                    <p>Mexican Bowl<span class="menu-price">£8.00</span></p>
+                    <p>Tuscan Bean Stew<span class="menu-price">£9.50</span></p>
+                    <p>Green Lentil & Coconut Dahl<span class="menu-price">£8.50</span></p>
+                    <p>Buddha Bowl<span class="menu-price">£7.50</span></p>
+                </section>
+    
+                <!--Drinks tab section-->
+                <section id="tabSection-3" class="tabSection hide-tab">
+                    <p>Organic cold-pressed Orange Juice<span class="menu-price">£3.00</span></p>
+                    <p>Kombucha<span class="menu-price">£4.50</span></p>
+                    <p>Green Glow Smoothie<span class="menu-price">£5.00</span></p>
+                    <p>Berry & Beetroot Smoothie<span class="menu-price">£5.00</span></p>
+                </section>
+    
+                <!--Desserts tab section-->
+                <section id="tabSection-4" class="tabSection hide-tab">
+                    <p>Peanut Butter Brownie<span class="menu-price">£4.50</span></p>
+                    <p>Vanilla Vegan Cheesecake<span class="menu-price">£4.50</span></p>
+                    <p>Tahini Almond Cookies<span class="menu-price">£5.00</span></p>
+                    <p>Gluten-free Chocolate Pudding<span class="menu-price">£5.00</span></p>
+                </section>
             </section>
         </section>
     </section>
@@ -180,89 +201,99 @@
     <section id="book-table" class="main-section">
         <h2>Book a Table</h2>
         <div class="container form-container">
-
-        <!--Contact Form-->
-        <form id="form" class="form" action="" onsubmit="return sendMail(this);">
-            <div class="form-group">
-                <label for="name">Full Name</label>
-                <input type="text" class="form-control" name="name" id="name" placeholder="Enter name">
-                <i class="fas fa-check-circle"></i>
-                <i class="fas fa-exclamation-circle"></i>
-                <small>Error message</small>
-            </div>
-
-            <div class="form-group">
-                <label for="emailAddress">Email Address</label>
-                <input type="email" class="form-control" name="emailaddress" id="emailAddress"
-                    placeholder="Enter email">
+    
+            <!--Contact Form-->
+            <form id="form" class="form" action="" onsubmit="return sendMail(this);">
+    
+                <!--Name input-->
+                <div class="form-group">
+                    <label for="name">Full Name</label>
+                    <input type="text" class="form-control" name="name" id="name" placeholder="Enter name">
+                    <i class="fas fa-check-circle"></i>
+                    <i class="fas fa-exclamation-circle"></i>
+                    <small>Error message</small>
+                </div>
+    
+                <!--Email input-->
+                <div class="form-group">
+                    <label for="emailAddress">Email Address</label>
+                    <input type="email" class="form-control" name="emailaddress" id="emailAddress"
+                        placeholder="Enter email">
                     <i class="fas fa-check-circle"></i>
                     <i class="fas fa-exclamation-circle"></i>
                     <small>Error Message</small>
-            </div>
-
-            <div class="form-group">
-                <label for="contactNumber">Contact Number</label>
-                <input type="number" class="form-control" name="contactnumber" id="contactNumber"
-                    placeholder="Enter contact number">
+                </div>
+    
+                <!--Contact number input-->
+                <div class="form-group">
+                    <label for="contactNumber">Contact Number</label>
+                    <input type="number" class="form-control" name="contactnumber" id="contactNumber"
+                        placeholder="Enter contact number">
                     <i class="fas fa-check-circle"></i>
                     <i class="fas fa-exclamation-circle"></i>
                     <small>Error Message</small>
-            </div>
-
-            <div class="form-group">
-                <label for="location">Select Location</label>
-                <select id="location" class="form-control" name="location">
-                    <option selected disabled>Please Select</option>
-                    <option>Westminster</option>
-                    <option>St. Pauls</option>
-                    <option>Elephant & Castle</option>
-                    <option>Brixton</option>
-                </select>
-                <i class="fas fa-check-circle"></i>
-                <i class="fas fa-exclamation-circle"></i>
-                <small>Error Message</small>
-            </div>
-
-            <div class="form-group">
-                <label for="date">Date</label>
-                <input type="date" class="form-control" name="date" id="date" placeholder="Select Date">
-                <i class="fas fa-check-circle"></i>
-                <i class="fas fa-exclamation-circle"></i>
-                <small>Error Message</small>
-            </div>
-
-            <div class="form-group">
-                <label for="time">Time</label>
-                <input type="time" class="form-control" name="time" id="time" placeholder="Select Time">
-                <i class="fas fa-check-circle"></i>
-                <i class="fas fa-exclamation-circle"></i>
-                <small>Error Message</small>
-            </div>
-
-            <div class="text-center">
-                <button type="submit" class="btn btn-primary" id="submit">Request Table</button>
-            </div>
-        </form>
-
-        <div class="modal fade" tabindex="-1" role="dialog" id="submitModal">
-            <div class="modal-dialog" role="document">
-                <div class="modal-content">
-                    <div class="modal-body">
-                        <p class="text-center">Thank you for requesting a table! Our team will review your request and get back to you within 24 hours to confirm your table!</p>
+                </div>
+    
+                <!--Location input-->
+                <div class="form-group">
+                    <label for="location">Select Location</label>
+                    <select id="location" class="form-control" name="location">
+                        <option selected disabled>Please Select</option>
+                        <option>Westminster</option>
+                        <option>St. Pauls</option>
+                        <option>Elephant & Castle</option>
+                        <option>Brixton</option>
+                    </select>
+                    <i class="fas fa-check-circle"></i>
+                    <i class="fas fa-exclamation-circle"></i>
+                    <small>Error Message</small>
+                </div>
+    
+                <!--Date input-->
+                <div class="form-group">
+                    <label for="date">Date</label>
+                    <input type="date" class="form-control" name="date" id="date" placeholder="Select Date">
+                    <i class="fas fa-check-circle"></i>
+                    <i class="fas fa-exclamation-circle"></i>
+                    <small>Error Message</small>
+                </div>
+    
+                <!--Time input-->
+                <div class="form-group">
+                    <label for="time">Time</label>
+                    <input type="time" class="form-control" name="time" id="time" placeholder="Select Time">
+                    <i class="fas fa-check-circle"></i>
+                    <i class="fas fa-exclamation-circle"></i>
+                    <small>Error Message</small>
+                </div>
+    
+                <!--Form submit button-->
+                <div class="text-center">
+                    <button type="submit" class="btn btn-primary" id="submit">Request Table</button>
+                </div>
+            </form>
+    
+            <!--Form submission modal-->
+            <div class="modal fade" tabindex="-1" role="dialog" id="submitModal">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-body">
+                            <p class="text-center">Thank you for requesting a table! Our team will review your request
+                                and get back to you within 24 hours to confirm your table!</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
                     </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                    </div>
-                </div><!-- /.modal-content -->
-            </div><!-- /.modal-dialog -->
-        </div><!-- /.modal -->
-
+                </div>
+            </div>
         </div>
     </section>
 
     <!--Page Footer-->
     <footer class="container-fluid">
         <div id="footer-details" class="row">
+    
             <!--Footer Contact Details-->
             <div class="col-sm-6">
                 <h5>Contact Us</h5>
@@ -271,6 +302,7 @@
                     <li><i class="fas fa-envelope"> </i> info@wholesomekitchen.com</li>
                 </ul>
             </div>
+    
             <!--Footer Social Media Links-->
             <div id="social-media" class="col-sm-6">
                 <h5>Our Social Media</h5>
@@ -292,14 +324,14 @@
         </div>
     </footer>
 
-    
     <!--Scripts for Google Maps API-->
     <script src="https://unpkg.com/@google/markerclustererplus@5.1.0/dist/markerclustererplus.min.js">
     </script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCIDwqcfYrqmFmO_FmuEJiFwIJZC9oXvkw&callback=initMap"
         defer>
         </script>
-    
+
+    <!--jQuery scripts-->
     <script src="https://code.jquery.com/jquery-2.2.4.min.js"
         integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
@@ -308,14 +340,12 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
         integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
         </script>
-    <script src="assets/js/about-us.js"></script>
+    
+    <!--Custom scripts-->
     <script src="assets/js/maps.js"></script>
     <script src="assets/js/sendEmail.js"></script>
-    <script src="assets/js/scroll.js"></script>
     <script src="assets/js/menu.js"></script>
     <script src="assets/js/script.js"></script>
     <script src="assets/js/validate.js"></script>
-
 </body>
-
 </html>
