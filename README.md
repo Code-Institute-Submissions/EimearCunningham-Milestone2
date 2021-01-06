@@ -38,11 +38,11 @@ A webpage for a fictional vegan cafe chain - "Green Kitchen Cafe". The main aim 
     - I chose the Google Font 'Chilanka' for the main font of the page. I chose this everyday handwriting style as it ties in with the casual style of the business. 
 
 ## Wireframes:
-[desktop]()
+[desktop](https://github.com/EimearCunningham/workspace/Milestone2/assets/images/readme-images/desktop-wireframe.pdf)
 
-[tablet]()
+[tablet](https://github.com/EimearCunningham/Milestone2/assets/wireframes/tablet.png)
 
-[mobile]()
+[mobile](https://github.com/EimearCunningham/Milestone2/assets/wireframes/mobile.png)
 
 # Features
 ### Header
