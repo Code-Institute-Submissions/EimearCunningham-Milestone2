@@ -95,7 +95,7 @@ This project was deployed using GitHub pages.
 
 ## To deploy this page I followed these steps:
 1. Go to GitHub.com and log into account.
-2. From the list of repositories to the left of the page, select EimearCunningham/Milestone1.
+2. From the list of repositories to the left of the page, select EimearCunningham/Milestone2.
 3. Once the repository is open, select the "Settings" button.
 4. Scroll down to the "GitHub Pages" section.
 5. Select the drop-down box which reads "none".
