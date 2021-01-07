@@ -85,6 +85,11 @@ The following results and recommendations were obtained:
     * The scroll to top button was tested to a) ensure it appears once the user begins to scroll and b) ensure when clicked on it brings the user to the top of the page as would be expected. 
 
 ## Accessability Testing
+
+## Console and Network Errors 
+* Upon testing my page I noticed the following error in the console **Failed to load resource: the server responded with a status of 404 () /favicon.ico:1**
+    * I fixed this error by creating a favicon using favicon-generator.org and adding the icon to the root directory.
+## Accessability Testing
 [WAVE Web Accessability Evaluation Tool](https://wave.webaim.org/) was used to test the accessability of my site.
 The following changes were made upon recommendation from WAVE:
 

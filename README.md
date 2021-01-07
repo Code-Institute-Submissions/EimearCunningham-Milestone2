@@ -85,6 +85,7 @@ A webpage for a fictional vegan cafe chain - "Green Kitchen Cafe". The main aim 
 * [Canva](https://www.canva.com/en_gb/)- Used to design logo.
 * [Am I Responsive](http://ami.responsivedesign.is/) - Used to create responsive.JPG for README.
 * [Balsamiq](https://balsamiq.com/wireframes/) - Desktop app used to create wireframes.
+* [Favicon Generator](https://www.favicon-generator.org/) - Used to create favicon for page.
 # Testing
 
 
@@ -112,13 +113,18 @@ This project was deployed using GitHub pages.
 # Credits
 
 ## Code
-* W3schools.com - Scroll to top button
-* Code Institute course matierial - sendEmail.js
-* Nsquared Coding Youtube Tutorial (https://www.youtube.com/watch?v=irxE-MAdR_M) - Main source for tabbed menu code
-## Text
-* Menu items retreived from https://deliciouslyella.com/wp-content/uploads/2019/06/Deliciously_Ella_deli_menu.pdf
+* Code for scroll to top button is from https://www.w3schools.com/howto/howto_js_scroll_to_top.asp , and then customised to suit my webpage.
+* Code Institute course matierial was the main source used to set up EmailJS.
+* Main source for tabbed menu code - [Nsquared Coding Tutorial](https://www.youtube.com/watch?v=irxE-MAdR_M)
+* Main source for form validation code - [Florin Pop Tutorial](https://www.youtube.com/watch?v=rsd4FNGTRBw&t=1511s)
+* Regex used in form validation was found on w3resource.com and stackoverflow.com
+## Content
+* Text used for menu items retreived from https://deliciouslyella.com/wp-content/uploads/2019/06/Deliciously_Ella_deli_menu.pdf
 * Text used in 'About Us' section derived from https://deliciouslyella.com/about/ and https://riversidecafeperth.com.au/our-team/
-## Images
-* All images used are from Unsplash.com
 ## Media
+* All images used are from [Unsplash.com](https://unsplash.com/Unsplash.com)
 ## Acknowledgements
+* Code Institute Slack channel for the constant encouragement and support
+* My mentor, Can Sucullu for his continued support
+
+**This site is for educational purposes only** 
