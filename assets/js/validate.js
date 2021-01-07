@@ -28,6 +28,7 @@ function checkInputs() {
     setErrorFor(name, "We require a name for your table reservation");
   } else {
     setSuccessFor(name);
+    
   }
 
   // check email input
@@ -54,7 +55,7 @@ function checkInputs() {
     setSuccessFor(contactNumber);
   }
 
-  // check date input
+  // check cafe input
   if (cafeValue === "") {
     setErrorFor(
       cafe,
@@ -117,11 +118,30 @@ function isNumber(number) {
   return /^\d{10}$/.test(number);
 }
 
+//function to show modal on valid input
+$('#form').on('submit', function (e) {
+    var showModal = true;
+    $(".form-control").each(function (element) {
+        if ($(this).val() == "") {
+            showModal = false;
+        }
+    });
+    if (showModal) {
+        $('#submitModal').modal('show');
+    }
+});
 
 
 
 
 
+
+
+
+
+
+
+// function to send email on submission of form
 function sendMail(contactForm) {
   //Call Emailjs.send method
   emailjs
@@ -147,9 +167,3 @@ function sendMail(contactForm) {
   //Stop new page from loading when 'Submit' is clicked
   return false;
 }
-
-
-$('#form').on('submit', function(e){
-  $('#submitModal').modal('show');
-  e.preventDefault();
-});

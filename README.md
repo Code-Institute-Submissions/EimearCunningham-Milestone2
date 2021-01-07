@@ -61,6 +61,7 @@ A webpage for a fictional vegan cafe chain - "Green Kitchen Cafe". The main aim 
 ### Book a Table Section
 * Form to book a table in any of the chains locations. EmailJS was used to add functionality which sends an email to the cafe admin when a user wants to book a table. Becasue this is a fictional website the email is sent to my personal email.
 * Form validation was added using Javascript to ensure to blank fields are submitted, and to add custom error messages for each input.
+* I decided to write the validation code myself, rather that use HTML5 'Required' attribute. I did this as I think custom error messages are more user friendly.
 
 ### Page Footer
 * Footer with contact information and social media links. 
