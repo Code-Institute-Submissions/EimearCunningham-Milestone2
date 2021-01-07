@@ -24,9 +24,9 @@
     </style>
 
     <!--Scripts-->
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js">
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js">
     </script>
-    <script type="text/javascript">
+    <script>
         (function () {
             emailjs.init("user_R15OC22cDobzkSy9K9v3a");
         })();
@@ -141,50 +141,49 @@
     <!--Menus Section-->
     <section id="menu" class="main-section">
         <h2 class="menu-title">Menu</h2>
-        <section class="container menu-container">
+        <div class="container menu-container">
     
             <!--Menu tabs-->
-            <section class="tabs-container">
-                <section class="tabs">
+            <div class="tabs-container">
+                <div class="tabs">
                     <button class="tabHeader active-tab" data-tab="1">BREAKFAST</button>
                     <button class="tabHeader" data-tab="2">LUNCH</button>
                     <button class="tabHeader" data-tab="3">DRINKS</button>
                     <button class="tabHeader" data-tab="4">DESSERTS</button>
-                </section>
-    
+                </div> 
                 <!--Breakfast tab section-->
-                <section id="tabSection-1" class="tabSection show-tab">
+                <div id="tabSection-1" class="tabSection show-tab">
                     <p>Sourdough Toast with Smashed Avocado<span class="menu-price">£6.50</span></p>
                     <p>Cacao Overnight Oats<span class="menu-price">£5.25</span></p>
                     <p>Bircher Muesli with Fruit Compote<span class="menu-price">£5.25</span></p>
                     <p>Homemade Pancakes<span class="menu-price">£6.00</span></p>
-                </section>
+                </div>
     
                 <!--Lunch tab section-->
-                <section id="tabSection-2" class="tabSection hide-tab">
+                <div id="tabSection-2" class="tabSection hide-tab">
                     <p>Mexican Bowl<span class="menu-price">£8.00</span></p>
                     <p>Tuscan Bean Stew<span class="menu-price">£9.50</span></p>
                     <p>Green Lentil & Coconut Dahl<span class="menu-price">£8.50</span></p>
                     <p>Buddha Bowl<span class="menu-price">£7.50</span></p>
-                </section>
+                </div>
     
                 <!--Drinks tab section-->
-                <section id="tabSection-3" class="tabSection hide-tab">
+                <div id="tabSection-3" class="tabSection hide-tab">
                     <p>Organic cold-pressed Orange Juice<span class="menu-price">£3.00</span></p>
                     <p>Kombucha<span class="menu-price">£4.50</span></p>
                     <p>Green Glow Smoothie<span class="menu-price">£5.00</span></p>
                     <p>Berry & Beetroot Smoothie<span class="menu-price">£5.00</span></p>
-                </section>
+                </div>
     
                 <!--Desserts tab section-->
-                <section id="tabSection-4" class="tabSection hide-tab">
+                <div id="tabSection-4" class="tabSection hide-tab">
                     <p>Peanut Butter Brownie<span class="menu-price">£4.50</span></p>
                     <p>Vanilla Vegan Cheesecake<span class="menu-price">£4.50</span></p>
                     <p>Tahini Almond Cookies<span class="menu-price">£5.00</span></p>
                     <p>Gluten-free Chocolate Pudding<span class="menu-price">£5.00</span></p>
-                </section>
-            </section>
-        </section>
+                </div>
+            </div>
+        </div>
     </section>
 
     <!--Locations Section-->
@@ -200,7 +199,7 @@
         <div class="container form-container">
     
             <!--Contact Form-->
-            <form id="form" class="form" action="" onsubmit="return sendMail(this);">
+            <form id="form" class="form" action="#" onsubmit="return sendMail(this);">
     
                 <!--Name input-->
                 <div class="form-group">
@@ -234,7 +233,7 @@
                 <!--Location input-->
                 <div class="form-group">
                     <label for="location">Location (Westminster/ St.Pauls/ Elephant&Castle/ Brixton)</label>
-                    <input id="location" class="form-control" name="location" placeholder="">
+                    <input id="location" class="form-control" name="location" placeholder="Select Location">
                     <i class="fas fa-check-circle"></i>
                     <i class="fas fa-exclamation-circle"></i>
                     <small>Error Message</small>
@@ -243,7 +242,7 @@
                 <!--Date input-->
                 <div class="form-group">
                     <label for="date">Date</label>
-                    <input type="date" class="form-control" name="date" id="date" placeholder="Select Date">
+                    <input type="date" class="form-control" name="date" id="date">
                     <i class="fas fa-check-circle"></i>
                     <i class="fas fa-exclamation-circle"></i>
                     <small>Error Message</small>
@@ -252,7 +251,7 @@
                 <!--Time input-->
                 <div class="form-group">
                     <label for="time">Time</label>
-                    <input type="time" class="form-control" name="time" id="time" placeholder="Select Time">
+                    <input type="time" class="form-control" name="time" id="time">
                     <i class="fas fa-check-circle"></i>
                     <i class="fas fa-exclamation-circle"></i>
                     <small>Error Message</small>

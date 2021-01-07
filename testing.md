@@ -7,8 +7,16 @@
 * [JS Hint](https://jshint.com/) - To validate JavaScript code
 
 ### Errors / Warnings found by W3C Markup Validation Service:
-- Errors:
-- Warnings: 
+## Errors:
+- Bad value for attribute action on element form: Must be non-empty.
+    - Fix: Replaced action="" to action="#". Action attribute must be empty due to EmailJS integration.
+- Attribute placeholder is only allowed when the input type is email, number, password, search, tel, text, or url.
+    - Fix: Removed placeholder text for date and time inputs of form.
+## Warnings: 
+- The type attribute is unnecessary for JavaScript resources.
+    - Removed type="text/javascript" attribute from script links.
+- Section lacks heading. Consider using h2-h6 elements to add identifying headings to all sections.
+    - Changes all section elements in menu section to div elements.
 
 ### Errors / Warnings found by W3C CSS Validation Service:
 - Errors:

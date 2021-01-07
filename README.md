@@ -1,7 +1,7 @@
 # Green Kitchen Cafe
 ![Site shown on different devices](assets/images/readme-images/responsive.JPG)
 
-Live website: http
+Live website: https://eimearcunningham.github.io/Milestone2/
 
 A webpage for a fictional vegan cafe chain - "Green Kitchen Cafe". The main aim of this webpage is for customers / potential customers to learn more about the cafe chain.
  
