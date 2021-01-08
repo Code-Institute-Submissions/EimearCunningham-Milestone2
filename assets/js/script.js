@@ -1,6 +1,6 @@
 //---------------------------------------------Scroll to top button - Code source: W3schools.com
 //Get button:
-mybutton = document.getElementById("scrollBtn");
+var mybutton = document.getElementById("scrollBtn");
 
 // Show button when user scrolls down 20px from top of page
 window.onscroll = function () {

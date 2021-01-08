@@ -1,5 +1,5 @@
 const form = document.getElementById("form");
-const name = document.getElementById("name");
+const cusname = document.getElementById("name");
 const emailaddress = document.getElementById("emailAddress");
 const contactnumber = document.getElementById("contactNumber");
 const cafe = document.getElementById('location');
@@ -16,7 +16,7 @@ form.addEventListener("submit", (e) => {
 // check to see if input is empty/valid
 function checkInputs() {
   // get the values from the inputs
-  const nameValue = name.value;
+  const nameValue = cusname.value;
   const emailValue = emailaddress.value;
   const numberValue = contactnumber.value;
   const cafeValue = cafe.value;
@@ -25,34 +25,34 @@ function checkInputs() {
 
   // check name input
   if (nameValue === "") {
-    setErrorFor(name, "We require a name for your table reservation");
+    setErrorFor(cusname, "We require a name for your table reservation");
   } else {
-    setSuccessFor(name);
+    setSuccessFor(cusname);
     
   }
 
   // check email input
   if (emailValue === "") {
     setErrorFor(
-      emailAddress,
+      emailaddress,
       "We'll need your email address to confirm your booking"
     );
   } else if (!isEmail(emailValue)) {
-    setErrorFor(emailAddress, "Please enter a valid email address");
+    setErrorFor(emailaddress, "Please enter a valid email address");
   } else {
-    setSuccessFor(emailAddress);
+    setSuccessFor(emailaddress);
   }
 
   // check number input
   if (numberValue === "") {
     setErrorFor(
-      contactNumber,
+      contactnumber,
       "We'll need a contact number to contact you about your booking"
     );
   } else if (!isNumber(numberValue)) {
-    setErrorFor(contactNumber, "Number must be 10 digits");
+    setErrorFor(contactnumber, "Number must be 10 digits");
   } else {
-    setSuccessFor(contactNumber);
+    setSuccessFor(contactnumber);
   }
 
   // check cafe input

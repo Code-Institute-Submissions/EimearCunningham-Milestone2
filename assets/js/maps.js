@@ -1,5 +1,3 @@
-var APIkey = "AIzaSyCIDwqcfYrqmFmO_FmuEJiFwIJZC9oXvkw";
-
 function initMap() {
     
   // Object for each cafe location which includes map co-ordinates and info for infowindow

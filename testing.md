@@ -19,12 +19,35 @@
     - Changes all section elements in menu section to div elements.
 
 ### Errors / Warnings found by W3C CSS Validation Service:
-- Errors:
-- Warnings: 
+- No errors/warnings found. 
 
-### Errors / Warnings found by JS Hint:
-- Errors:
-- Warnings: 
+## Errors / Warnings found by JS Hint:
+### Warnings
+- 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+- 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+- 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).   
+    - To fix these warnings I added the following comment to the JShint validator: '/*jshint esversion: 6 */' - This tells JSHint that the input code uses ECMAScript 6 specific syntax.
+- Functions declared within loops referencing an outer scoped variable may lead to confusing semantics. (infowindow, locations, map)
+    - Upon researching this warning message I understood that it is because the function is declared inside the loop rather than outside of the loop. Upon trying to 
+    fix this warning I found even more warnings being thrown. I sought advice and realised this in this instance it is ok to leave the warning as it is, as it only leads to confusing semantics which I understand.
+- Redefinition of 'name'.
+    - I googled this error as I couldn't find where I redefined 'name'. There seems to be a window.name global which already exists. I fixed this by changing const="name" - to const="cusname".
+- Undefined variable - google.
+    - As this code was taken from developers.google.com, I decided to leave as is.
+- Undefined variable - $
+    - This was fixed by adding the comment '/* jshint jquery: true */ ' to the jshint file.
+- Undefined variable - emailAddress & contactNumber
+    - This led me to fix the capital letter errors I had made in the code setSuccessFor and setErrorFor
+- Undefined variable - emailjs
+    - As this was taken from emailjs documentation I decided to leave as is.
+- Unused variable - APIkey
+    - I removed this variable as it was just for development purposes.
+- Unused variable - initMap
+    - As this code was taken from developers.google.com, I decided to leave as is.
+- Unused variable - topFunction
+    - This is called in index.html.
+- Unused variable - sendMail
+    - As this code was taken from emailjs, I decided to leave as is. 
 
 ## Speed Testing
 [Pingdom.com](https://tools.pingdom.com/) was used to test the load time of the website.
