@@ -120,6 +120,7 @@ The following results and recommendations were obtained:
 ## Console and Network Errors 
 * Upon testing my page I noticed the following error in the console **Failed to load resource: the server responded with a status of 404 () /favicon.ico:1**
     * I fixed this error by creating a favicon using favicon-generator.org and adding the icon to the root directory.
+* 404 error for Favicon.ico on delpoyed site
 ## Accessability Testing
 [WAVE Web Accessability Evaluation Tool](https://wave.webaim.org/) was used to test the accessability of my site.
 The following changes were made upon recommendation from WAVE:
